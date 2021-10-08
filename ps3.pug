@@ -1,0 +1,14 @@
+extends layout
+
+block content
+    h1= title
+
+    case part
+        when 'b'
+            h2 Answer to #{part}: #{partb}
+        when 'c'
+            h2 Answer to #{part}: #{partc}
+        when 'd'
+            h2 Answer to #{part}: #{partd}
+        default
+            h2 :)
