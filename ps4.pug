@@ -1,0 +1,29 @@
+extends layout
+
+
+block content
+
+    h1= title
+    h2= data
+
+    case route_var
+        when 'b'
+            h2 NAME: #{dataTitle}
+            h2 DESCRIPTION: #{dataDescription}
+            h2 CAUTION MESSAGE: #{dataCaution}
+
+            h2 (Part b)
+        when 'c'
+            h2 NAME: #{dataTitle}
+            h2 DESCRIPTION: #{dataDescription}
+            h2 CAUTION MESSAGE: #{dataCaution}
+
+
+            h2 (Part c)
+        when 'd'
+            h2 NAME: #{dataTitle}
+            h2 DESCRIPTION: #{dataDescription}
+            h2 CAUTION MESSAGE: #{dataCaution}
+
+
+            h2 (Part d)

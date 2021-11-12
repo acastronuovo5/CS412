@@ -1,0 +1,30 @@
+extends layout
+
+block content
+  h1= "Search the FBI database"
+  p Part B
+    form(action="/ps4" method="POST" id="b")
+      p
+        | Field Office:
+        input(type="text" name="field_offices" placeholder="")
+        |
+      input(type="submit")
+
+
+  p Part C
+    form(action="/ps4" method="POST" id="c")
+      p
+        | Field Office:
+        input(type="text" name="field_offices" placeholder="")
+        |
+      input(type="submit")
+
+  part Part D
+    form(action="/ps4" method="POST" id="d")
+      p
+        | Field Office:
+        input(type="text" name="field_offices" placeholder="")
+        |
+      input(type="submit")
+
+
